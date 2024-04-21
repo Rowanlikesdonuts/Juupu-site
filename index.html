@@ -12,8 +12,14 @@
 </head>
 <body style="background-color:#024b53; color:white;">
   <!--TITELBAR-->
-  <?php include 'titlebar.php'; ?>
-  </span>
+  <!--De code van de titelbar staat in titelbar.html-->
+    <script>
+        fetch('titlebar.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('titlebar').innerHTML = html;
+            });
+    </script>
   <br>
   </div>
 
