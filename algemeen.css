@@ -121,3 +121,9 @@ body {
       height: auto;
       display: inline-block;
     }
+
+      @media screen and (max-width: 767px) {
+      .extra-space {
+        margin-top: 10rem;
+      }
+    }
