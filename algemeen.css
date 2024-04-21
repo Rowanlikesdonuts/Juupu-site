@@ -93,13 +93,6 @@ body {
       width: 100vw;
     }
 
-    .image {
-      /*Volgensmij wordt dit niet meer gebruikt?*/
-      width: 50%;
-      float: right;
-      max-width: 90vw;
-    }
-
     .h1 {
       font-size: 1.5rem;
     }
@@ -109,10 +102,15 @@ body {
     }
 
     .logo {
-      /*Dit is voor dat gifje in de rechterbovenhoek*/
+      /*Dit is voor dat gifje in de linkerbovenhoek*/
       position: fixed;
-      margin: 4rem 0 0px calc(100vw - 12rem); /*Positionering*/
       z-index: 1; /*Het staat voor de tekst*/
+      height: auto;
+      border-radius: 2.5rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      max-width: 90vw;
+      pointer-events: none;
+      width: 5rem;
     }
 
     .naastelkaar {
