@@ -91,6 +91,7 @@ body {
       /*Code voor de header op de Homepagina*/
       height: auto;
       width: 100vw;
+      max-width: 60rem;
     }
 
     .h1 {
