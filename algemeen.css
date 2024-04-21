@@ -1,0 +1,123 @@
+body {
+      font-size: calc(12px + 0.3vw); /*Dit zorgt voor een goede grootte op elk apparaat*/
+    }
+
+    * {
+      /*Dit zijn wat algemene instellingen over het lettertype enz.*/
+      color: white;
+      font-weight: 500;
+      font-family: 'Comfortaa', sans-serif;
+    }
+
+    .title-bar {
+      /*Dit is de gele balk aan de bovenkant van het scherm*/
+      background-color: #ffd800;
+      color: #024b53;
+      padding: 1rem;
+      font-family: 'Comfortaa', sans-serif;
+      top: 0;
+      border-radius: 0px 0px 10px 10px;
+      max-width: calc(100vw - 2rem);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      left: 0;
+      width: 100%;
+      z-index: 1; /*Boven alle tekst*/
+      position: absolute; /*De titelbalk blijft staan*/
+      text-align: right;
+    }
+
+    a:link,
+    a {
+      /*Alle links krijgen een lichtblauwe kleur*/
+      color: #59b0bd;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+      /*Alle links krijgen een lichtblauwe kleur*/
+      color: #59b0bd;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    .fade-in {
+      /*Als je wisselt van pagina doet de oude pagina wegfaden en de nieuwe pagina infaden. 
+      Dit is de code om de pagina in te laten faden.*/
+      opacity: 0;
+      animation: fade-in-animation 0.5s ease-in forwards;
+    }
+
+    @keyframes fade-in-animation {
+      /*Code voor het infaden*/
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .fade-out {
+      /*Code voor het uitfaden*/
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .fade-out.is-fading {
+      /*Code voor het uitfaden*/
+      pointer-events: none;
+      opacity: 0;
+    }
+
+    .fade-out.is-fading .fade-out-content {
+      /*Code voor het uitfaden*/
+      animation: fade-in-animation 0.5s ease-in-out forwards;
+    }
+
+    .fotometrand {
+      /*Code voor een foto met een schaduw, geronde hoeken, enz.
+      Gebruik deze code om een plaatje er wat beter uit te laten zien.*/
+      width: 10rem;
+      height: auto;
+      border-radius: 2rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      max-width: 90vw;
+      pointer-events: none;
+    }
+
+    .header {
+      /*Code voor de header op de Homepagina*/
+      height: auto;
+      width: 100vw;
+    }
+
+    .image {
+      /*Volgensmij wordt dit niet meer gebruikt?*/
+      width: 50%;
+      float: right;
+      max-width: 90vw;
+    }
+
+    .h1 {
+      font-size: 1.5rem;
+    }
+
+    .h2 {
+      font-size: 1rem;
+    }
+
+    .logo {
+      /*Dit is voor dat gifje in de rechterbovenhoek*/
+      position: fixed;
+      margin: 4rem 0 0px calc(100vw - 12rem); /*Positionering*/
+      z-index: 1; /*Het staat voor de tekst*/
+    }
+
+    .naastelkaar {
+      /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
+      width: auto;
+      height: auto;
+      display: inline-block;
+    }
