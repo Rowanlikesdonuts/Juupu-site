@@ -3,23 +3,27 @@
   <head>
 	  <meta name="description" content="Bridgen in Cadier en Keer, nabij Maastricht.">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bridgeclub Cadier en Keer</title>
-    <link rel="icon" type="image/x-icon" href="schoppen.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Juupu</title>
+    <link rel="icon" type="image/x-icon" href="https://juupu.nl/wp-content/uploads/2020/01/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet"> 
     
 	<style>
+		body {
+			font-size: calc(12px + 0.3vw);
+		}
+
 		*{
     		color: white;
-			font-weight: 100;
+			font-weight: 500;
+			font-family: 'Comfortaa', sans-serif;
         }
 		.title-bar {
 			background-color: #ffd800;
 			color: #024b53;
 			padding: 1rem;
-			font-size: 16px;
-			font-family: 'Roboto', sans-serif;
+			font-family: 'Comfortaa', sans-serif;
 			top: 0;
 			border-radius: 0px 0px 10px 10px;
 			max-width: calc(100vw - 2rem);
@@ -28,7 +32,12 @@
       			width: 100%;
       			z-index: 1;
 			position: absolute;
+			text-align: right;
 		}
+		.links-container {
+    position: relative;
+    z-index: 999;
+}
     	/*.img {
       		width: 10rem;
 			transition: all 0.3s;
@@ -82,27 +91,15 @@
 
 .fade-out.is-fading .fade-out-content {
   animation: fade-in-animation 0.5s ease-in-out forwards;
-}
-
-h1 {
-  font-size: 1.5rem;
-  font-family: Verdana
-}
-h2 {
-  font-size: 1rem;
-  font-family: Helvetica
-}
-
-html {
-  font-size: calc(2em - 1vw);
-}      
+}  
 
 .fotometrand {        
-	width: 20rem;
+	width: 10rem;
 	height: auto;
 	border-radius: 2rem;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	max-width: 90vw;
+	pointer-events: none;
 }
 
 .fotozonderrand {        
@@ -116,62 +113,72 @@ html {
 	max-width: 90vw;
     }
 
+.h1 {
+	font-size: 1.5rem;
+}
+		
+.h2 {
+	font-size: 1rem;
+}
+
+@media screen and (max-aspect-ratio: 3/2) {
+      .extra-space {
+        margin-top: 17rem;
+      }
+    }
+
+.logo {
+    position: fixed;
+    margin: 4rem 0 0px calc(100vw - 12rem);
+}
+
+.naastelkaar {
+  width:auto;  
+  height:auto;
+  display:inline-block;
+}
+		
 </style>
 	  
   </head>
   <body style="background-color:#024b53; color:white;">
     <!--TITELBAR-->
-    <div class="title-bar"><span style="color: #024b53;">ㅤWelkom bij de Juupu site!<br>
-<a href="/Juupu-site/index.html" class="fade-out-link">Home</a> | <a href="/Juupu-site/informatie.html" class="fade-out-link">Over Juupu</a> | <a href="/Juupu-site/contact.html" class="fade-out-link">Contact</a></div>
+    <div class="title-bar"><span style="color: #024b53;">ㅤWelkom bij de Juupu site!&nbsp;&nbsp;<br>
+<div class="links-container"><a href="/Juupu-site/index.html" class="fade-out-link">Home</a> | <a href="/Juupu-site/informatie.html" class="fade-out-link">Over Juupu</a> | <a href="/Juupu-site/contact.html" class="fade-out-link">Contact</a>&nbsp;&nbsp;</div></div>
 
       	</span><br></div>
     <div class="fade-out"><div class="fade-in">
 	<!--INHOUD-->
-      <br><br><br><H1 style="font-family: Roboto", sans-serif;><br>
 
-	<!--INFORMATIE-->
+<div class="logo"><img src="https://juupu.nl/wp-content/uploads/2020/01/juupu-loop.gif" alt="Juupu GIF" class="fotometrand"></div>
+	<br><br><br><H1><div class="extra-space"><span style="font-weight: 900;">Over Juupu</span></H1>
 
-<img src="Picture1.png" alt="Logo bridgeclub Maastricht" class="fotozonderrand">
-	<H1 style="font-family: Roboto", sans-serif;><span style="font-weight: 900;">Informatie</span></H1>
-
-      <b><H2 style="font-family: Roboto", sans-serif;>
-Bridgeclub Cadier en Keer is een gezellige bridgeclub gelegen nabij Maastricht. <br>Gezelligheid én competitie gaan gelijk op.<br><br>
-      <span style="font-weight: 900;">Wanneer?</span><br>
-      Elke dinsdagochtend van 09.30 uur tot circa 12.30 uur. <br><br>
-
-      <span style="font-weight: 900;">Waar?</span><br>
-      Clubhuis Golfclub ‘Het Rijk van Margraten’<br>
-      Bemelerweg 99<br>
-      6267 AL Cadier en Keer, op korte afstand van Maastricht<br>
-      Gratis parkeren<br>
-      OV bereikbaar buslijn 350 Maastricht-Aachen<br><br>
-
-      <span style="font-weight: 900;">Voor wie?</span><br>
-      Ben je een beginner of al een geroutineerde bridgespeler? Iedereen is van harte welkom om te komen bridgen. Kom gerust een keer meespelen!<br><br>
-      </H2>
-
-	<!--CONTACT-->
-	<H1 style="font-family: Roboto", sans-serif;><p><span style="font-weight: 900;">Contact</span></p></H1>
-
-      <H2 style="font-family: Roboto", sans-serif;><p>
-
-      <span style="font-weight: 900;">E-mail</span><br>
-      deholweg@hetnet.nl<br><br>
-
-      <span style="font-weight: 900;">Telefoon</span><br>
-      +31 6 50 48 75 17<br><br>
-
-      <span style="font-weight: 900;">Bestuur</span><br>
-      Wim van Baalen<br>
-	  John Hufkens<br>
-	  Djoeke Joskin-Vonk<br><br>
-        
-      </H2>      
-
-	<br><br><br>
+      <b><H2>
+Lees hier meer over Juupu!<br><br>       
+      </H2></b>
+	<br>
  <!--FOTO-->
-      <img src="kaarten.jpeg" class="fotometrand" alt="Bridge kaarten"></a>
+<div class="naastelkaar">
+<img src="https://juupu.nl/wp-content/uploads/2020/01/logo.png" class="fotometrand" alt="Bridge kaarten"></a>
 	  <!--SCRIPTS-->
-      <script src="Fade-out.js"></script>
+</div>
+
+<div class="naastelkaar">
+<h2>&nbsp;&nbsp;Juupu is begonnen door Juul en Puck.<br><br><br></h2>
+</div>
+<br>
+
+<div class="naastelkaar">
+<h2><img src="https://juupu.nl/wp-content/uploads/2020/08/voedselpakket-rode-kruis.jpg" class="fotometrand" alt="Bridge kaarten"></a></h2>
+</div>
+
+<div class="naastelkaar">
+<h2>&nbsp;&nbsp;Zij vonden dat het te lastig was voor jongeren om vrijwilligerswerk te doen.<br><br><br></h2>
+</div>
+
+
+<script src="Fade-out.js"></script>
+
+
   </body>
 </html>
