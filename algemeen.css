@@ -2,14 +2,6 @@ body {
       font-size: calc(12px + 0.3vw); /*Dit zorgt voor een goede grootte op elk apparaat*/
     }
 
-      .centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-
     * {
       /*Dit zijn wat algemene instellingen over het lettertype enz.*/
       color: white;
