@@ -6,6 +6,6 @@ fadeOutLinks.forEach(function(link) {
     document.querySelector('.fade-out').classList.add('is-fading');
     setTimeout(function() {
       window.location.href = link.href;
-    }, 500);
+    }, 2000);
   });
 });
