@@ -13,6 +13,6 @@ function preloadPagesWithDelay(pages, delay) {
 
 // Preload na 2 seconden
 window.addEventListener('DOMContentLoaded', (event) => {
-    const pagesToPreload = ['index.html', 'contact.html', 'informatie.html']; //BELANGRIJK: VUL IN DE LIJST ALLE PAGINA'S IN DIE GEPRELOADT MOETEN WORDEN!
+    const pagesToPreload = ['index.html', 'contact.html', 'informatie.html', 'titlebar.html']; //BELANGRIJK: VUL IN DE LIJST ALLE PAGINA'S IN DIE GEPRELOADT MOETEN WORDEN!
     preloadPagesWithDelay(pagesToPreload, 2000);
 });
