@@ -17,7 +17,7 @@ body {
       font-family: 'Comfortaa', sans-serif;
       top: 0;
       border-radius: 0px 0px 10px 10px;
-      width: calc(100% - 2rem);
+      width: calc(100% - 3rem);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       left: 0;
       z-index: 1; /*Boven alle tekst*/
