@@ -1,18 +1,37 @@
 // Dit is een script dat alle pagina's van de site van te voren downloadt op de achtergrond. Dat zorgt voor een snellere site.
-function preloadPagesWithDelay(pages, delay) {
-    setTimeout(() => {
-        pages.forEach(page => {
-            const link = document.createElement('link');
-            link.rel = 'preload';
-            link.href = page;
-            link.as = 'document';
-            document.head.appendChild(link);
-        });
-    }, delay);
-}
 
-// Preload na 2 seconden
-window.addEventListener('DOMContentLoaded', (event) => {
-    const pagesToPreload = ['index.html', 'contact.html', 'informatie.html', 'titlebar.html', 'algemeen.css']; //BELANGRIJK: VUL IN DE LIJST ALLE PAGINA'S IN DIE GEPRELOADT MOETEN WORDEN!
-    preloadPagesWithDelay(pagesToPreload, 2000);
-});
+    // Function to handle link clicks
+    function handleLinkClick(event) {
+        event.preventDefault(); // Prevent the default behavior of the link
+        
+        // Get the href attribute of the clicked link
+        var nextPage = this.getAttribute('href');
+        
+        // Fetch the content of the next page asynchronously
+        fetch(nextPage)
+        .then(response => response.text())
+        .then(html => {
+            // Create a temporary container to hold the fetched content
+            var tempContainer = document.createElement('div');
+            tempContainer.innerHTML = html;
+            
+            // Extract the main content of the next page
+            var nextPageContent = tempContainer.querySelector('.main-content'); // Adjust the selector as per your page structure
+            
+            // Replace the current page content with the content of the next page
+            document.body.innerHTML = nextPageContent.innerHTML;
+            
+            // Update the URL in the address bar
+            history.pushState({}, '', nextPage);
+        })
+        .catch(error => console.error('Error fetching page:', error));
+    }
+
+    // Add event listeners to all links with class "page-link"
+    var pageLinks = document.querySelectorAll('.page-link');
+    pageLinks.forEach(link => {
+        link.addEventListener('click', handleLinkClick);
+    });
+  </script>
+</body>
+</html>
