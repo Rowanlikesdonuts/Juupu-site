@@ -42,6 +42,14 @@ body {
       text-decoration: underline;
     }
 
+      .mainheader {
+        padding: 60px;
+        text-align: center;
+        background-image: url("mainheader.png");
+        color: white;
+        font-size: 30px;
+      }
+
     .fotometrand {
       /*Code voor een foto met een schaduw, geronde hoeken, enz.
       Gebruik deze code om een plaatje er wat beter uit te laten zien.*/
