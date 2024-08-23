@@ -32,6 +32,4 @@
     pageLinks.forEach(link => {
         link.addEventListener('click', handleLinkClick);
     });
-  </script>
-</body>
-</html>
+
