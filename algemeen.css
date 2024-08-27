@@ -96,7 +96,7 @@ body {
     .naastelkaarR {
       /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
   display: inline-block;
-  width: 12rem;
+  width: 25rem;
   height: 12rem;
   padding: 3rem 0;
   border: 1px solid blue;    
