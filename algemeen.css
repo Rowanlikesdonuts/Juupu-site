@@ -56,12 +56,12 @@ body {
     .fotometrand {
       /*Code voor een foto met een schaduw, geronde hoeken, enz.
       Gebruik deze code om een plaatje er wat beter uit te laten zien.*/
-      width: 10rem;
+      /*width: 10rem;
       height: auto;
       border-radius: 2rem;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       max-width: 90vw;
-      pointer-events: none;
+      pointer-events: none;*/
     }
 
     .h1 {
