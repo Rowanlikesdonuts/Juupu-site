@@ -85,18 +85,22 @@ body {
     }
 
     .naastelkaarL {
-      /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
-      width: auto;
-      height: 10rem;
-      display: inline-block;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 3rem 0;
+  border: 1px solid blue;    
+  background-color: yellow; 
     }
 
     .naastelkaarR {
       /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
-      width: auto;
-      height: 10rem;
-      display: inline-block;
-      padding: 3rem 0;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 3rem 0;
+  border: 1px solid blue;    
+  background-color: yellow; 
     }
 
       @media screen and (max-width: 767px) {
