@@ -84,13 +84,19 @@ body {
       width: 5rem;
     }
 
-    .naastelkaar {
+    .naastelkaarL {
       /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
       width: auto;
       height: auto;
       display: inline-block;
     }
 
+    .naastelkaarR {
+      /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
+      width: auto;
+      height: auto;
+      display: inline-block;
+    }
       @media screen and (max-width: 767px) {
       .extra-space {
         margin-top: 10rem;
