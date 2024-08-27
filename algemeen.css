@@ -96,7 +96,7 @@ position: relative;
     .naastelkaarR {
       /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
   display: inline-block;
-  width: 25rem;
+  width: 55rem;
   height: 12rem;
   padding: 3rem 0;  
 position: relative;
