@@ -86,8 +86,8 @@ body {
 
     .naastelkaarL {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 12rem;
+  height: 12rem;
   padding: 3rem 0;
   border: 1px solid blue;    
   background-color: yellow; 
