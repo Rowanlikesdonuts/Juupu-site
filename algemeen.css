@@ -87,17 +87,18 @@ body {
     .naastelkaarL {
       /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
       width: auto;
-      height: auto;
+      height: 10rem;
       display: inline-block;
     }
 
     .naastelkaarR {
       /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
       width: auto;
-      height: auto;
+      height: 10rem;
       display: inline-block;
       padding: 3rem 0;
     }
+
       @media screen and (max-width: 767px) {
       .extra-space {
         margin-top: 10rem;
