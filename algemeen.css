@@ -103,6 +103,7 @@ position: relative;
   border: 1px solid blue;    
   background-color: yellow; 
 position: relative;
+max-width: calc(95vw - 12rem);
     }
 
 .vertical-center {
