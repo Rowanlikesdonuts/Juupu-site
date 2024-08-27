@@ -96,6 +96,11 @@ body {
       width: auto;
       height: auto;
       display: inline-block;
+      margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
       @media screen and (max-width: 767px) {
       .extra-space {
