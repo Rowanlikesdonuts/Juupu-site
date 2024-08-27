@@ -88,7 +88,7 @@ body {
     .naastelkaarL {
   display: inline-block;
   width: 12rem;
-  height: 12rem;
+  height: 10rem;
   padding: 3rem 0;  
 position: relative;
     }
@@ -97,7 +97,7 @@ position: relative;
       /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
   display: inline-block;
   width: 55rem;
-  height: 12rem;
+  height: 10rem;
   padding: 3rem 0;  
 position: relative;
 max-width: calc(92vw - 12rem);
