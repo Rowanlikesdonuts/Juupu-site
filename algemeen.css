@@ -63,7 +63,7 @@ body {
       box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       max-width: 90vw;
       pointer-events: none;
-      border: #00AAAA 5px solid;
+      border: #DDD 5px solid;
 }
     }
 
