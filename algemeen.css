@@ -114,5 +114,5 @@ max-width: calc(92vw - 12rem);
   transform: translateY(-50%);
 }
       .extra-space {
-        margin-top: 4rem;
+        margin-top: 10rem;
       }
