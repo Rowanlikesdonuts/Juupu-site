@@ -113,8 +113,8 @@ max-width: calc(92vw - 12rem);
   transform: translateY(-50%);
 }
 
-      @media screen and (max-width: 767px) {
+      /*@media screen and (max-width: 767px) {
       .extra-space {
         margin-top: 10rem;
-      }
+      }*/
     }
