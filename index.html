@@ -47,6 +47,16 @@
       <!--Instagram embed-->
       <br><br><iframe src="https://www.instagram.com/juupu_nl/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
   </div>
+
+  <!--footer wordt hier automatisch geplaatst-->
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('footer').innerHTML = html;
+            });
+    </script>
+  
   <script src="preload.js"></script>
 </body>
 </html>
