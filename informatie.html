@@ -54,6 +54,15 @@
   <h5>Jong geleerd is jong gedaan!</h5>
 </div><br><br>
 
+  <div id="footer"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('footer').innerHTML = html;
+            });
+    </script>
+  
   <script src="preload.js"></script>
 </body>
 </html>
