@@ -37,7 +37,8 @@ body {
       width: 100%;
       left: 0;
       z-index: 1; /*Boven alle tekst*/
-      position: absolute; /*De titelbalk blijft staan*/
+      position: absolute;
+      border-radius: 10px 10px 0px 0px;
     }
 
     a:link,
