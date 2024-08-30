@@ -31,7 +31,7 @@ body {
       /*Dit is de gele balk aan de bovenkant van het scherm*/
       background-color: #ffd800;
       color: #024b53;
-      padding-top: 6.5rem;
+      padding-top: 6rem;
       padding-bottom: 1.5rem;
       font-family: 'Comfortaa', sans-serif;
       top: 0;
@@ -115,8 +115,10 @@ body {
 
     .logo {
       /*Dit is voor dat gifje in de linkerbovenhoek*/
-      position: fixed;
-      z-index: 1; /*Het staat voor de tekst*/
+      top: 0.5rem;
+      left: 0.5rem;    
+          position: fixed;
+      z-index: 3; /*Het staat voor de tekst*/
       height: auto;
       border-radius: 2.5rem;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
