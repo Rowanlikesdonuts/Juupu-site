@@ -1,6 +1,6 @@
 body {
       font-size: calc(12px + 0.3vw); /*Dit zorgt voor een goede grootte op elk apparaat*/
-      padding: 0.5vw;
+      padding: 0 0.5vw 0 0.5vw;
     }
 
     * {
