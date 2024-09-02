@@ -167,6 +167,7 @@ a:hover,a:active {
 .downloadbutton {
       	width: 20rem;
 	transition: all 0.3s;
+	margin: auto;
 }
 
 .downloadbutton:hover {
