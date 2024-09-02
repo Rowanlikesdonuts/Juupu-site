@@ -31,7 +31,7 @@ body {
 }
 
 .temp-banner {
-	/*Dit is de gele balk aan de bovenkant van het scherm*/
+	/*Dit is de code voor de tijdelijke banner*/
 	background-color: #e5c200;
 	color: #024b53;
 	padding-top: 5.25rem;
@@ -65,6 +65,7 @@ body {
 }
 
 .instagradient {
+	/*Dit is de gekleurde gradient voor het woordje 'Instagram'.*/
 	background: -webkit-linear-gradient(-45deg, purple, red, orange);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -85,6 +86,7 @@ a:hover,a:active {
 }
 
 .mainheader {
+	/*Dit is de code voor een soort hero-image, die heel vaak op de site gebruikt wordt.*/
 	padding: 1rem;
 	text-align: center;
 	background-image: url("mainheader.jpg");
@@ -97,7 +99,7 @@ a:hover,a:active {
 }
 
 .fotometrand {
-	/*Code voor een foto met een schaduw, geronde hoeken, enz.Gebruik deze code om een plaatje er wat beter uit te laten zien.*/
+	/*Code voor een foto met een schaduw, geronde hoeken, enz. Gebruik deze code om een plaatje er wat beter uit te laten zien.*/
 	width: 10rem;
 	height: auto;
 	border-radius: 2rem;
@@ -121,7 +123,6 @@ a:hover,a:active {
 	left: 0.5rem;
 	position: fixed;
 	z-index: 3;
-	/*Het staat voor de tekst*/
 	height: auto;
 	border-radius: 2.5rem;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -131,6 +132,7 @@ a:hover,a:active {
 }
 
 .naastelkaarL {
+	/*Als je 2 div's naast elkaar wilt zetten, dan moet je dit gebruiken.*/
 	display: inline-block;
 	width: 12rem;
 	height: 8rem;
@@ -140,7 +142,7 @@ a:hover,a:active {
 }
 
 .naastelkaarR {
-	/*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
+	/*Als je 2 div's naast elkaar wilt zetten, dan moet je dit gebruiken.*/
 	display: inline-block;
 	width: 55rem;
 	height: 8rem;
