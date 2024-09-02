@@ -1,157 +1,163 @@
 body {
-      font-size: calc(12px + 0.3vw); /*Dit zorgt voor een goede grootte op elk apparaat*/
-      padding: 0 0.5vw 0 0.5vw;
-    }
-
-    * {
-      /*Dit zijn wat algemene instellingen over het lettertype enz.*/
-      color: white;
-      font-weight: 500;
-      font-family: 'Comfortaa', sans-serif;
-    }
-
-    .title-bar {
-      /*Dit is de gele balk aan de bovenkant van het scherm*/
-      background-color: #ffd800;
-      color: #024b53;
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-      font-family: 'Comfortaa', sans-serif;
-      top: 0;
-      border-radius: 0px 0px 10px 10px;
-      width: 100%;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      left: 0;
-      z-index: 2; /*Boven alle tekst*/
-      position: absolute; /*De titelbalk blijft staan*/
-      text-align: right;
-    }
-
-    .temp-banner {
-      /*Dit is de gele balk aan de bovenkant van het scherm*/
-      background-color: #e5c200;
-      color: #024b53;
-      padding-top: 5.25rem;
-      padding-bottom: 0.75rem;
-      font-family: 'Comfortaa', sans-serif;
-      top: 0;
-      border-radius: 0px 0px 10px 10px;
-      width: 100%;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      left: 0;
-      z-index: 1; /*Boven alle tekst*/
-      position: absolute; /*De titelbalk blijft staan*/
-      text-align: center;
-    }
-
-    .footer {
-      /*Dit is de gele balk aan de onderkant van het scherm*/
-      background-color: #ffd800;
-      color: #024b53;
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-      font-family: 'Comfortaa', sans-serif;
-      width: 100%;
-      left: 0;
-      z-index: 1; /*Boven alle tekst*/
-      position: absolute;
-      border-radius: 10px;
-    }
-
-      .instagradient {
-            background: -webkit-linear-gradient(-45deg, purple, red, orange);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-      }
-
-    a:link,
-    a {
-      /*Alle links krijgen een lichtblauwe kleur*/
-      color: #59b0bd;
-      background-color: transparent;
-      text-decoration: none;
-    }
-
-    a:hover,
-    a:active {
-      /*Alle links krijgen een lichtblauwe kleur*/
-      color: #59b0bd;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-
-      .mainheader {
-        padding: 1rem;
-        text-align: center;
-        background-image: url("mainheader.jpg");
-        color: white;
-        font-size: 30px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-shadow: 5px 5px 10px black;
-      }
-
-    .fotometrand {
-      /*Code voor een foto met een schaduw, geronde hoeken, enz.
-      Gebruik deze code om een plaatje er wat beter uit te laten zien.*/
-      width: 10rem;
-      height: auto;
-      border-radius: 2rem;
-      box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      max-width: 90vw;
-      pointer-events: none;
-      border: #DDD 5px solid;
+	font-size: calc(12px + 0.3vw);
+	/*Dit zorgt voor een goede grootte op elk apparaat*/
+	padding: 0 0.5vw 0 0.5vw;
 }
-    }
 
-    .h1 {
-      font-size: 1.5rem;
-    }
+* {
+	/*Dit zijn wat algemene instellingen over het lettertype enz.*/
+	color: white;
+	font-weight: 500;
+	font-family: 'Comfortaa', sans-serif;
+}
 
-    .h2 {
-      font-size: 1rem;
-    }
+.title-bar {
+	/*Dit is de gele balk aan de bovenkant van het scherm*/
+	background-color: #ffd800;
+	color: #024b53;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	font-family: 'Comfortaa', sans-serif;
+	top: 0;
+	border-radius: 0px 0px 10px 10px;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	left: 0;
+	z-index: 2;
+	/*Boven alle tekst*/
+	position: absolute;
+	/*De titelbalk blijft staan*/
+	text-align: right;
+}
 
-    .logo {
-      /*Dit is voor dat gifje in de linkerbovenhoek*/
-      top: 0.5rem;
-      left: 0.5rem;    
-          position: fixed;
-      z-index: 3; /*Het staat voor de tekst*/
-      height: auto;
-      border-radius: 2.5rem;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      max-width: 90vw;
-      pointer-events: none;
-      width: 3rem;
-    }
+.temp-banner {
+	/*Dit is de gele balk aan de bovenkant van het scherm*/
+	background-color: #e5c200;
+	color: #024b53;
+	padding-top: 5.25rem;
+	padding-bottom: 0.75rem;
+	font-family: 'Comfortaa', sans-serif;
+	top: 0;
+	border-radius: 0px 0px 10px 10px;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	left: 0;
+	z-index: 1;
+	/*Boven alle tekst*/
+	position: absolute;
+	/*De titelbalk blijft staan*/
+	text-align: center;
+}
 
-    .naastelkaarL {
-  display: inline-block;
-  width: 12rem;
-  height: 8rem;
-  padding: 3rem 0;  
-position: relative;
-    }
+.footer {
+	/*Dit is de gele balk aan de onderkant van het scherm*/
+	background-color: #ffd800;
+	color: #024b53;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	font-family: 'Comfortaa', sans-serif;
+	width: 100%;
+	left: 0;
+	z-index: 1;
+	/*Boven alle tekst*/
+	position: absolute;
+	border-radius: 10px;
+}
 
-    .naastelkaarR {
-      /*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
-  display: inline-block;
-  width: 55rem;
-  height: 8rem;
-  padding: 3rem 0;  
-position: relative;
-max-width: calc(92vw - 12rem);
-    }
+.instagradient {
+	background: -webkit-linear-gradient(-45deg, purple, red, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+a:link,a {
+	/*Alle links krijgen een lichtblauwe kleur*/
+	color: #59b0bd;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover,a:active {
+	/*Alle links krijgen een lichtblauwe kleur*/
+	color: #59b0bd;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.mainheader {
+	padding: 1rem;
+	text-align: center;
+	background-image: url("mainheader.jpg");
+	color: white;
+	font-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-shadow: 5px 5px 10px black;
+}
+
+.fotometrand {
+	/*Code voor een foto met een schaduw, geronde hoeken, enz.Gebruik deze code om een plaatje er wat beter uit te laten zien.*/
+	width: 10rem;
+	height: auto;
+	border-radius: 2rem;
+	box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	max-width: 90vw;
+	pointer-events: none;
+	border: #DDD 5px solid;
+}
+
+.h1 {
+	font-size: 1.5rem;
+}
+
+.h2 {
+	font-size: 1rem;
+}
+
+.logo {
+	/*Dit is voor dat gifje in de linkerbovenhoek*/
+	top: 0.5rem;
+	left: 0.5rem;
+	position: fixed;
+	z-index: 3;
+	/*Het staat voor de tekst*/
+	height: auto;
+	border-radius: 2.5rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	max-width: 90vw;
+	pointer-events: none;
+	width: 3rem;
+}
+
+.naastelkaarL {
+	display: inline-block;
+	width: 12rem;
+	height: 8rem;
+	padding: 3rem 0;
+	position: relative;
+	text-shadow: 3px 3px 10px black;
+}
+
+.naastelkaarR {
+	/*Als je 2 div's OP EEN COMPUTER naast elkaar wilt zetten (en op een telefoon onder elkaar), dan moet je dit gebruiken.*/
+	display: inline-block;
+	width: 55rem;
+	height: 8rem;
+	padding: 3rem 0;
+	position: relative;
+	max-width: calc(92vw - 12rem);
+	text-shadow: 3px 3px 10px black;
+}
 
 .vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
-      .extra-space {
-        margin-top: 10rem;
-      }
+
+.extra-space {
+	margin-top: 10rem;
+}
