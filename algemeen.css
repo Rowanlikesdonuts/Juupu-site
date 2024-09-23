@@ -99,6 +99,19 @@ a:hover,a:active {
 	text-shadow: 5px 5px 10px black;
 }
 
+.mainimageheader {
+	/*Dit is de code voor een soort hero-image, die heel vaak op de site gebruikt wordt.*/
+	padding: 1rem;
+	text-align: center;
+	background-image: url("voedselpakket-rode-kuis.jpg");
+	color: white !important;
+	font-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-shadow: 5px 5px 10px black;
+}
+
 .fotometrand {
 	/*Code voor een foto met een schaduw, geronde hoeken, enz. Gebruik deze code om een plaatje er wat beter uit te laten zien.*/
 	width: 10rem;
