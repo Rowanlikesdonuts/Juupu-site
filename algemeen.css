@@ -91,7 +91,7 @@ a:hover,a:active {
 	padding: 1rem;
 	text-align: center;
 	background-color: #024b53;
-	color: white;
+	color: white !important;
 	font-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
