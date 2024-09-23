@@ -142,6 +142,7 @@ a:hover,a:active {
 	max-width: 90vw;
 	pointer-events: none;
 	width: 3rem;
+	border-radius: 1.5rem;
 }
 
 .naastelkaarL {
