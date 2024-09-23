@@ -93,7 +93,6 @@ a:hover,a:active {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-shadow: 5px 5px 10px black;
 }
 
 .mainimageheader {
@@ -106,7 +105,6 @@ a:hover,a:active {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-shadow: 5px 5px 10px black;
 }
 
 .fotometrand {
@@ -147,7 +145,6 @@ a:hover,a:active {
 	height: 8rem;
 	padding: 3rem 0;
 	position: relative;
-	text-shadow: 3px 3px 10px black;
 }
 
 .naastelkaarR {
@@ -158,7 +155,6 @@ a:hover,a:active {
 	padding: 3rem 0;
 	position: relative;
 	max-width: calc(92vw - 12rem);
-	text-shadow: 3px 3px 10px black;
 }
 
 .vertical-center {
