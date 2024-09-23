@@ -2,20 +2,19 @@ body {
 	font-size: calc(12px + 0.3vw);
 	/*Dit zorgt voor een goede grootte op elk apparaat*/
 	padding: 0 0.5vw 0 0.5vw;
-	background: rgb(3,92,102);
-	background: radial-gradient(circle, rgba(3,92,102,1) 0%, rgba(1,62,69,1) 100%);
+	background-image: url(https://juupu.nl/wp-content/uploads/2019/05/bg-header.jpg);
 }
 
 * {
 	/*Dit zijn wat algemene instellingen over het lettertype enz.*/
-	color: white;
+	color: #024b53;
 	font-weight: 500;
 	font-family: 'Comfortaa', sans-serif;
 }
 
 .title-bar {
 	/*Dit is de gele balk aan de bovenkant van het scherm*/
-	background-color: #ffd800;
+	background-color: #024b53;
 	color: #024b53;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
@@ -91,7 +90,7 @@ a:hover,a:active {
 	/*Dit is de code voor een soort hero-image, die heel vaak op de site gebruikt wordt.*/
 	padding: 1rem;
 	text-align: center;
-	background-image: url("mainheader.jpg");
+	background-color: #024b53;
 	color: white;
 	font-size: 30px;
 	background-position: center;
