@@ -95,6 +95,7 @@ a:hover,a:active {
 	text-align: center;
 	background-color: #024b53;
 	color: white !important;
+	font-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -108,6 +109,7 @@ a:hover,a:active {
 	text-align: center;
 	background-image: url("mainheader.jpg");
 	color: white !important;
+	font-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -127,11 +129,11 @@ a:hover,a:active {
 }
 
 .h1 {
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 .h2 {
-	font-size: 0.6rem;
+	font-size: 1rem;
 }
 
 .logo {
