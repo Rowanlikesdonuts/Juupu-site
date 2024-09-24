@@ -3,6 +3,7 @@ body {
 	/*Dit zorgt voor een goede grootte op elk apparaat*/
 	padding: 0 0.5vw 0 0.5vw;
 	background-image: url(https://cdn.architextures.org/textures/20/11/painted-cmu-block-5fc4cb8779da3-1200.jpg);
+	background-color: #DDD;
 }
 
 * {
