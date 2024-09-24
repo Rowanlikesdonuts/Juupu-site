@@ -24,7 +24,7 @@ body {
 	left: 0;
 	z-index: 2;
 	/*Boven alle tekst*/
-	position: absolute;
+	position: fixed;
 	/*De titelbalk blijft staan*/
 	text-align: right;
 	border-radius: 0 0 1rem 1rem;
@@ -43,7 +43,6 @@ body {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	left: 0;
 	z-index: 1;
-	/*Boven alle tekst*/
 	position: absolute;
 	/*De titelbalk blijft staan*/
 	text-align: center;
@@ -61,41 +60,19 @@ body {
 	width: calc(100% - 32px);
 	left: 0;
 	z-index: 1;
-	/*Boven alle tekst*/
 	position: absolute;
 	border-radius: 1rem;
 	margin-left: 16px;
 	box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.instagradient {
-	/*Dit is de gekleurde gradient voor het woordje 'Instagram'.*/
-	background: -webkit-linear-gradient(-45deg, purple, red, orange);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-a:link,a {
-	/*Alle links krijgen een lichtblauwe kleur*/
-	color: #59b0bd;
-	background-color: transparent;
-	text-decoration: none;
-}
-
-a:hover,a:active {
-	/*Alle links krijgen een lichtblauwe kleur*/
-	color: #59b0bd;
-	background-color: transparent;
-	text-decoration: underline;
-}
-
 .mainheader {
-	/*Dit is de code voor een soort hero-image, die heel vaak op de site gebruikt wordt.*/
+	/*Dit is de code voor een blok met een blauwe achtergrond.*/
 	padding: 1rem;
 	text-align: center;
 	background-color: #024b53;
 	color: white !important;
-	font-size: 20px;
+	font-size: 25px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -109,7 +86,7 @@ a:hover,a:active {
 	text-align: center;
 	background-image: url("mainheader.jpg");
 	color: white !important;
-	font-size: 20px;
+	font-size: 25px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -183,12 +160,36 @@ a:hover,a:active {
 	margin-top: 10rem;
 }
 
+
+/*Animatie voor de downloadknop*/
 .downloadbutton {
       	width: 20rem;
 	transition: all 0.3s;
 	margin: auto;
 }
 
+/*Animatie voor de downloadknop*/
 .downloadbutton:hover {
 	transform: matrix(1.2, 0, 0, 1.2, 14, 3.5) rotate(6deg);
+}
+
+.instagradient {
+	/*Dit is de gekleurde gradient voor het woordje 'Instagram'.*/
+	background: -webkit-linear-gradient(-45deg, purple, red, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+a:link,a {
+	/*Alle links krijgen een lichtblauwe kleur*/
+	color: #59b0bd;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover,a:active {
+	/*Alle links krijgen een lichtblauwe kleur*/
+	color: #59b0bd;
+	background-color: transparent;
+	text-decoration: underline;
 }
