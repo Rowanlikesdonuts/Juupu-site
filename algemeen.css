@@ -71,7 +71,6 @@ body {
 
 .mainheader {
 	/*Dit is de code voor een blok met een blauwe achtergrond.*/
-	margin-top: 2.5rem;
 	padding: 1rem;
 	text-align: center;
 	background-color: #024b53;
@@ -85,7 +84,8 @@ body {
 }
 
 .mainimageheader {
-	/*Dit is de code voor een soort hero-image, die heel vaak op de site gebruikt wordt.*/
+	/*Dit is de code voor een soort hero-image AAN DE BOVENKANT VAN EEN PAGINA, die heel vaak op de site gebruikt wordt.*/
+	margin-top: 2.5rem;
 	padding: 1rem;
 	text-align: center;
 	background-image: url("mainheader.jpg");
