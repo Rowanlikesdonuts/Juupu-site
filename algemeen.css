@@ -16,7 +16,7 @@ body {
 .title-bar {
 	/*Dit is de gele balk aan de bovenkant van het scherm*/
 	background-color: #024b53;
-	color: #024b53;
+	color: #CCC;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 	font-family: 'Comfortaa', sans-serif;
@@ -116,10 +116,6 @@ body {
 	font-size: 1rem;
 }
 
-.gecentreerd {
-	margin: auto;
-}	
-
 .logo {
 	/*Dit is voor dat gifje in de linkerbovenhoek*/
 	top: 0.5rem;
@@ -196,7 +192,7 @@ a:link,a {
 
 a:hover,a:active {
 	/*Alle links krijgen een lichtblauwe kleur*/
-	color: #59b0bd;
+	color: white;
 	background-color: transparent;
 	text-decoration: underline;
 }
