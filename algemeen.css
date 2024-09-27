@@ -116,6 +116,10 @@ body {
 	font-size: 1rem;
 }
 
+.gecentreerd {
+	margin: auto;
+}	
+
 .logo {
 	/*Dit is voor dat gifje in de linkerbovenhoek*/
 	top: 0.5rem;
