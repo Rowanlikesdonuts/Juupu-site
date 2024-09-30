@@ -31,7 +31,7 @@ body {
 	text-align: right;
 	border-radius: 0 0 1rem 1rem;
 	margin-left: 12px;
-	height: 1.5rem;
+	height: 1rem;
 }
 
 .temp-banner {
@@ -121,7 +121,7 @@ body {
 .logo {
 	/*Dit is voor dat gifje in de linkerbovenhoek*/
 	top: 0.5rem;
-	left: 1.5rem;
+	left: calc(1rem + 4px);
 	position: fixed;
 	z-index: 3;
 	height: auto;
