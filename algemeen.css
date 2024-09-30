@@ -209,4 +209,5 @@ a:hover,a:active {
     	transform: translateY(-50%);
     	/* text-align: right; */
     	right: 0.5rem;
+	line-height: 1.8;
 }
