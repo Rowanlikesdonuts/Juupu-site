@@ -31,6 +31,7 @@ body {
 	text-align: right;
 	border-radius: 0 0 1rem 1rem;
 	margin-left: 12px;
+	height: 1.5rem;
 }
 
 .temp-banner {
@@ -201,4 +202,11 @@ a:hover,a:active {
 .links-container {
 	padding-left: 4rem;
 	padding-right: 1.5rem;
+	margin: 0;
+    	position: absolute;
+    	top: 50%;
+    	-ms-transform: translateY(-50%);
+    	transform: translateY(-50%);
+    	/* text-align: right; */
+    	right: 0.5rem;
 }
