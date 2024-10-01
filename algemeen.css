@@ -132,7 +132,7 @@ body {
 	border-radius: 0.5rem;
 }
 
-@media screen and (min-width:550px) {
+@media screen and (max-width:550px) {
   	/*Verberg het logo op mobiele apparaten*/
 	.logo { display:none }
 }
@@ -205,8 +205,8 @@ a:hover,a:active {
 }
 
 .links-container {
-	padding-left: 4rem;
-	padding-right: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	margin: 0;
     	position: absolute;
     	top: 50%;
