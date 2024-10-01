@@ -86,7 +86,7 @@ body {
 
 .mainimageheader {
 	/*Dit is de code voor een soort hero-image AAN DE BOVENKANT VAN EEN PAGINA, die heel vaak op de site gebruikt wordt.*/
-	margin-top: 2.5rem;
+	margin-top: calc(4rem - 2vw);
 	padding: 1rem;
 	text-align: center;
 	background-image: url("mainheader.jpg");
