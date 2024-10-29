@@ -132,11 +132,6 @@ body {
 	border-radius: 0.5rem;
 }
 
-@media screen and (max-width:550px) {
-  	/*Verberg het logo op mobiele apparaten*/
-	.logo { display:none }
-}
-
 .naastelkaarL {
 	/*Als je 2 div's naast elkaar wilt zetten, dan moet je dit gebruiken.*/
 	display: inline-block;
