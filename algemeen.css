@@ -225,7 +225,7 @@ a:hover,a:active {
 
 .hamburgermenu {
     background-color: #024b53;
-    color: #024b53;
+    color: white;
     padding-top: 5rem;
     padding-bottom: 0.75rem;
     font-family: 'Comfortaa', sans-serif;
@@ -239,4 +239,5 @@ a:hover,a:active {
     border-radius: 0 0 1rem 1rem;
     right: 0;
     left: calc(100% - 350px);
+    text-align: right;
 }
