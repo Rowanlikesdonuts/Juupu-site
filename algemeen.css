@@ -216,3 +216,7 @@ a:hover,a:active {
 @media screen and (max-width: 600px) {
 	.hideonmobile {display: none;}
 }
+
+@media screen and (min-width: 601px) {
+	.hideondesktop {display: none;}
+}
