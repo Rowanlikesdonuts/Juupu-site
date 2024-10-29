@@ -226,7 +226,7 @@ a:hover,a:active {
 .hamburgermenu {
     background-color: #024b53;
     color: white;
-    height: 13rem:
+    height: 13rem;
     font-family: 'Comfortaa', sans-serif;
     top: 0;
     width: calc(100% - 200px);
