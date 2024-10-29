@@ -214,6 +214,5 @@ a:hover,a:active {
 
 /*Als je de site bekijkt op een mobiel dan verdwijnen met deze code alle links in de menubar, om plek te maken voor het hamburgermenu.*/
 @media screen and (max-width: 600px) {
-	
-	.links-container {display: none;}
+	.hideonmobile {display: none;}
 }
