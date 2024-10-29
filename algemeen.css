@@ -226,17 +226,16 @@ a:hover,a:active {
 .hamburgermenu {
     background-color: #024b53;
     color: white;
-    padding-top: 5rem;
-    padding-bottom: 0.75rem;
+    height: 13rem:
     font-family: 'Comfortaa', sans-serif;
     top: 0;
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     left: 0;
     z-index: 1;
     position: absolute;
     text-align: center;
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 1rem;
     right: 0;
     left: calc(100% - 312px);
     text-align: right;
