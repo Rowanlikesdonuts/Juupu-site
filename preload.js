@@ -1,3 +1,5 @@
+<script src="https://kit.fontawesome.com/4600eb7943.js" crossorigin="anonymous"></script>
+
 // Dit is een script dat alle pagina's van de site van te voren downloadt op de achtergrond. Dat zorgt voor een snellere site.
 
     // Function to handle link clicks
