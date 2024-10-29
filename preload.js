@@ -2,9 +2,9 @@
 function hamburgerbutton() {
   var x = document.getElementById("hamburgermenu");
   if (x.style.display === "block") {
-    x.style.opacity = "1";
+    x.style.display = "0";
   } else {
-    x.style.opacity = "0";
+    x.style.display = "1";
   }
 }
 
