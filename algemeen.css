@@ -6,6 +6,10 @@ body {
 	background-color: #DDD;
 }
 
+html {
+	scroll-behaviour: smooth;
+}
+
 * {
 	/*Dit zijn wat algemene instellingen over het lettertype enz.*/
 	font-weight: 500;
