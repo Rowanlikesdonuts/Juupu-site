@@ -230,7 +230,7 @@ a:hover,a:active {
 .hamburgermenu {
     background-color: #024b53;
     color: white;
-    height: 13rem;
+    height: 21rem;
     font-family: 'Comfortaa', sans-serif;
     top: 4.5rem;
     width: 200px;
@@ -251,7 +251,7 @@ a:hover,a:active {
 .schoolmenu {
     background-color: #024b53;
     color: white;
-    height: 13rem;
+    height: 9rem;
     font-family: 'Comfortaa', sans-serif;
     top: 4.5rem;
     width: 200px;
