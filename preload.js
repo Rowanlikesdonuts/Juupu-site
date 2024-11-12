@@ -8,6 +8,15 @@ function hamburgerbutton() {
   }
 }
 
+function schoolmenu() {
+  var x = document.getElementById("schoolmenu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 // Dit is een script dat alle pagina's van de site van te voren downloadt op de achtergrond. Dat zorgt voor een snellere site.
 
     // Function to handle link clicks
