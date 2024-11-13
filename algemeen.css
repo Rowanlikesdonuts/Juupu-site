@@ -221,10 +221,12 @@ a:hover,a:active {
 /*Als je de site bekijkt op een mobiel dan verdwijnen met deze code alle links in de menubar, om plek te maken voor het hamburgermenu.*/
 @media screen and (max-width: 600px) {
 	.hideonmobile {display: none;}
+	.scholenmenu {display: none;}
 }
 
 @media screen and (min-width: 601px) {
 	.hideondesktop {display: none;}
+	.hamburgermenu {display: none;}
 }
 
 .hamburgermenu {
