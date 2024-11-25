@@ -1,0 +1,3 @@
+Persoonlije notite van Rowan
+python -m http.server
+Github desktop
