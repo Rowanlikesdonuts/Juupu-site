@@ -14,6 +14,7 @@ html {
 	/*Dit zijn wat algemene instellingen over het lettertype enz.*/
 	font-weight: 500;
 	font-family: 'Comfortaa', sans-serif;
+	text-shadow: 1px 1px 16px #2b2b2b;
 }
 
 /*DE VOLGENDE 3 ELEMENTEN HEBBEN ALLEMAAL VRIJWEL DEZELFDE CODE*/
@@ -219,14 +220,19 @@ a:hover,a:active {
 
 /*VANAF HIER IS DE CODE VOOR HET HAMBURGERMENU*/
 /*Als je de site bekijkt op een mobiel dan verdwijnen met deze code alle links in de menubar, om plek te maken voor het hamburgermenu.*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
 	.hideonmobile {display: none;}
 	.scholenmenu {display: none;}
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 851px) {
 	.hideondesktop {display: none;}
 	.hamburgermenu {display: none;}
+}
+
+.fade-out-link {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .hamburgermenu {
@@ -250,7 +256,7 @@ a:hover,a:active {
 }
 
 /*drop down menu*/
-.schoolmenu {
+.dropdownmenu {
     background-color: #024b53;
     color: white;
     height: 11rem;
@@ -268,3 +274,6 @@ a:hover,a:active {
     display: none;
     position: fixed;
 }
+
+/*EINDE HAMBURGER MENU CODE*/
+

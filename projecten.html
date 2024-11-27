@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Bridgen in Cadier en Keer, nabij Maastricht.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#024b53">
+  <title>Juupu</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="algemeen.css">
+  <script src="https://kit.fontawesome.com/4600eb7943.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--TITELBAR-->
+  <!--De code van de titelbar staat in titelbar.html-->
+    <div class="animate-bottom"><div id="titlebar"></div>
+    <script>
+        fetch('titlebar.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('titlebar').innerHTML = html;
+            });
+    </script>
+
+  <!--INHOUD-->
+      <div class="mainimageheader">
+  <p>Van, voor en door jongeren</p>
+        <h1>Dit is wat we doen</h1>
+  <h5>Juupu is een organisatie die allerlei vrijwilligerswerk uitvoert op scholen in Maastricht.</h5>
+</div><br><br>
+      <!--Volgende stuk-->
+      <div class="naastelkaarL">
+        <div class="vertical-center"><img src="images/voedselpakket-rode-kruis.jpg" class="fotometrand" alt="Eten"></a></div>
+      </div>
+      <div class="naastelkaarR">
+        <div class="vertical-center"><h2>Zo doen we bijvoorbeeld inzamelingen.</h2></div>
+      </div>
+      <!--Instagram embed-->
+      <br><br><iframe src="https://www.instagram.com/juupu_nl/embed" width="360px" height="432px" frameborder="0" scrolling="no" allowtransparency="true" style="border-radius: 1rem; box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></iframe>
+  </div>
+  <!--footer wordt hier automatisch geplaatst-->
+  <div id="footer"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('footer').innerHTML = html;
+            });
+    </script>
+  
+  <script src="preload.js"></script>
+</body>
+</html>

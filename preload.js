@@ -8,8 +8,8 @@ function hamburgerbutton() {
   }
 }
 
-function schoolmenu() {
-  var x = document.getElementById("schoolmenu");
+function dropdownmenu() {
+  var x = document.getElementById("dropdownmenu");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
